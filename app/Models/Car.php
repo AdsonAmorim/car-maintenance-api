@@ -13,6 +13,6 @@ class Car extends Model
 
     public function owner()
     {
-        return $this->hasOne(Owner::class, 'id', 'owner_id_fk');
+        return  $this->hasOne(Owner::class, 'id', 'owner_id_fk');
     }
 }
